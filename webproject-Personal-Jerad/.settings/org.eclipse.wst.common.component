@@ -1,8 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="webproject-Personal-Jerad">
-        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="webproject-Personal-Jerad"/>
-        <property name="java-output-path" value="/webproject-Personal-Jerad/build/classes"/>
+                
+    
+    
+    <wb-module deploy-name="webproject-ex-0919-Bilek">
+                                
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                
+        
+        
+        <property name="java-output-path" value="/webproject-ex-0919-Bilek/build/classes"/>
+                        
+        
+        <property name="context-root" value="webproject-ex-0919-Bilek"/>
+                            
+    
+    
     </wb-module>
+            
+
+
 </project-modules>

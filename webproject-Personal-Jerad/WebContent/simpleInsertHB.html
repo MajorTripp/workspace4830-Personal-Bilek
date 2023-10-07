@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:blue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1>Task Keeper</h1>
+</header>
+
+<nav>
+<a href="/webproject-Personal-Jerad/MyServletHibernateDBBilek.html">View All Tasks</a> <br>
+<a href="/webproject-Personal-Jerad/simpleSearchHB.html">Search Tasks</a> <br>
+<a href="/webproject-Personal-Jerad/simpleDeleteHB.html">Delete Tasks</a> <br>
+</nav>
+
+<section>
+	<h1>Insert Task</h1>
+	
+	<form action="SimpleInsertHB" method="POST">
+	
+		Task Deadline: <input type="datetime-local" name="deadline"> <br />
+		Task Description: <input type="text" name="description"> <br />
+		Task Assignee: <input type="text" name="assignee"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
